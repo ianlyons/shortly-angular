@@ -29,6 +29,8 @@ shortlyControllers.controller('LinkController', function($scope, $http) {
   }).error(function(data, status) {
     console.log("THERE'S BEEN A HUGE PROBLEM: NOT ENOUGH CAT GIFS!!!11!");
   });
+
+  $scope.searchTypes = [['created_at', 'Newest'], ['hottest', 'Last Visited'], ['visits', 'Most Visited']];
 });
 
 shortlyControllers.controller('ShortenController', function($scope, $http) {

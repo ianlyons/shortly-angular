@@ -1,0 +1,29 @@
+{
+  "name": "2014-02-shortly-angular",
+  "version": "0.0.0",
+  "description": "Angular app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eacraft13/2014-02-shortly-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eacraft13/2014-02-shortly-angular/issues"
+  },
+  "homepage": "https://github.com/eacraft13/2014-02-shortly-angular",
+  "dependencies": {
+    "angular": "~1.2.15",
+    "express": "~3.5.1",
+    "http-request": "~0.6.2",
+    "request": "~2.34.0",
+    "mongoose": "~3.8.8",
+    "bcrypt-nodejs": "0.0.3",
+    "crypto": "0.0.3",
+    "bluebird": "~1.1.1"
+  }
+}
